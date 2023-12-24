@@ -2,11 +2,11 @@
   .header {
     display: flex;
     align-content:center;
-    align-items: baseline;
+    align-items: center;
     gap: 12rem;   
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     position: sticky;
     top: 0; 
@@ -16,7 +16,10 @@
     height: 50px;
     
   }
-
-  .header div {
+  .text {
     font-size: 1.25rem;
+  }
+  .cart-logo{
+    font-size: 2.5rem;
+    padding-right: .5rem;
   }
